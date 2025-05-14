@@ -6,7 +6,7 @@ st.title("Mentorluk Chatbotu 🤖")
 
 @st.cache_data
 def load_data():
-    df = pd.read_excel("C:/Users/Fatih/Desktop/Data science/Python B270/internship/Intership/Proje 6 Chatboot\Mentoring_Chatbot_Fatih_Marik/mentoring_soruEklenmis_dataset.xlsx")
+    df = pd.read_excel("mentoring_soruEklenmis_dataset.xlsx")
     return df
 
 df = load_data()
